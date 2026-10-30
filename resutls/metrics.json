@@ -1,0 +1,72 @@
+{
+  "n_children": 2736,
+  "class_counts": {
+    "0": 1594,
+    "1": 730,
+    "2": 378,
+    "3": 34
+  },
+  "cv": "5-fold stratified x 5 seeds",
+  "targets": {
+    "tabular_only": {
+      "qwk_sii_model_nested": 0.4534,
+      "qwk_total_model_nested": 0.4609
+    },
+    "tabular_plus_actigraphy": {
+      "qwk_sii_model_nested": 0.4515,
+      "qwk_total_model_nested": 0.4512
+    }
+  },
+  "tabular_only": {
+    "n_features": 63,
+    "qwk_sii_lgbm": 0.4604,
+    "qwk_sii_xgb": 0.4626,
+    "qwk_sii_cat": 0.4658,
+    "qwk_blend_tuned_on_oof": 0.4661,
+    "qwk_blend_nested_thresholds": 0.4597,
+    "thresholds_on_standardised_blend": [
+      0.099,
+      1.157,
+      2.428
+    ]
+  },
+  "tabular_plus_actigraphy": {
+    "n_features": 88,
+    "qwk_sii_lgbm": 0.4578,
+    "qwk_sii_xgb": 0.4631,
+    "qwk_sii_cat": 0.4587,
+    "qwk_blend_tuned_on_oof": 0.4621,
+    "qwk_blend_nested_thresholds": 0.454,
+    "thresholds_on_standardised_blend": [
+      0.109,
+      1.085,
+      2.342
+    ]
+  },
+  "confusion_matrix": [
+    [
+      1190,
+      301,
+      100,
+      3
+    ],
+    [
+      318,
+      254,
+      149,
+      9
+    ],
+    [
+      90,
+      129,
+      143,
+      16
+    ],
+    [
+      2,
+      4,
+      20,
+      8
+    ]
+  ]
+}
