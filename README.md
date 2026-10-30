@@ -1,10 +1,5 @@
 # Predicting problematic internet use in children
 
-Kaggle competition: [Child Mind Institute – Problematic Internet Use](https://www.kaggle.com/competitions/child-mind-institute-problematic-internet-use) (2024).
-
-## Why it matters
-Problematic internet use in children is linked to anxiety, depression and poor sleep, but it is usually measured with a 20-question clinical questionnaire (PCIAT). This project predicts the resulting **Severity Impairment Index (SII: 0 none, 1 mild, 2 moderate, 3 severe)** from data that is cheaper to collect: physical exams, fitness tests, a sleep questionnaire and screen-time habits. The aim is early screening.
-
 ## Data
 - 3,960 children, of whom 2,736 have an SII label (58% none, 27% mild, 14% moderate, 1% severe).
 - About 1,000 children also wore a wrist accelerometer for several weeks.
